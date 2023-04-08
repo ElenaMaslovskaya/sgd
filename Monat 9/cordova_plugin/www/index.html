@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Plugin Demo 2</title>
+  </head>
+  <body>
+    <div class="app">
+      <h2>Informationen zu Ihrem System</h2>
+      <button type="button" disabled id="beschaffen">
+        Informationen beschaffen
+      </button>
+      <h3 id="cordovaversion"></h3>
+      <h3 id="modell"></h3>
+      <h3 id="plattform"></h3>
+      <h3 id="version"></h3>
+      <h3 id="hersteller"></h3>
+      <h3 id="virtuell"></h3>
+      <h2>Netzwerkstatus</h2>
+      <h3 id="typ"></h3>
+      <h3 id="online"></h3>
+      <h2>Batteriestatus</h2>
+      <h3 id="status"></h3>
+      <h2>Kamera</h2>
+      <button type="button" id="aufnehmen">Aufnehmen</button>
+      <button type="button" id="galerie">Galerie öffnen</button>
+      <img id="bild" alt="Beispielbild" />
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

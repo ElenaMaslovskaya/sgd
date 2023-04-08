@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Taschenrechner</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Ihre Eingabe bitte:</h1>
+      <div>
+        <input id="zahl1" type="text" value="1" />
+        <select id="operation" size="1">
+          <option value="1">Addition</option>
+          <option value="2">Subtraktion</option>
+          <option value="3">Multiplikation</option>
+          <option value="4">Division</option>
+        </select>
+        <input id="zahl2" type="text" value="1" />
+      </div>
+      <h1 id="ausgabe"></h1>
+      <button type="button" id="berechnen">Berechnen</button>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/operationen.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   font-size: 300%;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
