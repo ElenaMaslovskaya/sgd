@@ -1,0 +1,51 @@
+#dashboard {
+   display: flex;
+   flex-direction: column;
+   background: white;
+}
+
+.dashboard-kopf {
+   display: flex;
+   flex-wrap: wrap;
+   background: green;
+   color: white;
+   padding: 5px;
+}
+
+.dashboard-zeile {
+   display: flex;
+   flex-wrap: no-wrap;
+   margin: 5px;
+   width: 100%;
+}
+
+.dashboard-zeile mat-card {
+   flex: 1;
+   min-width: 200px;
+   min-height: 250px;
+   margin: 5px;
+}
+
+mat-card {
+   padding: 5px;
+}
+
+mat-card-subtitle {
+   color: black;
+}
+
+#karte01 {
+   background: lightgreen;
+}
+
+#karte02 {
+   background: white;
+}
+
+#karte03 {
+   background: lightblue;
+}
+
+#willkommen {
+   background: white;
+}
